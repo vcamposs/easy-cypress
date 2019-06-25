@@ -1,0 +1,23 @@
+{
+  "name": "base-line-cypress",
+  "version": "1.0.0",
+  "description": "Example of cypress with cucumber",
+  "author": "Victor Campos Silva",
+  "dependencies": {
+    "cypress": "^3.1.5",
+    "cypress-cucumber-preprocessor": "~1.8.0"
+  },
+  "scripts": {
+    "e2e-test": "cypress open",
+    "e2e-test:headless": "cypress run"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "step_definitions/"
+  },
+  "devDependencies": {
+    "marge": "^1.0.1",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.1",
+    "shelljs": "^0.8.3"
+  }
+}
