@@ -13,3 +13,9 @@ $ cd /cypress
 $ npm install
 $ npm run e2e-test
 ```
+3. If you wanna running Cypress headless, and generate a report :
+```
+$ cd /cypress
+$ npm run e2e-test:headless
+$ node report/index.js
+```
