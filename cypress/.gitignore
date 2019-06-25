@@ -94,4 +94,4 @@ videos
 mochawesome-report
 
 #report
-report
+report/generated/*
