@@ -2,9 +2,9 @@ import addContext from 'mochawesome/addContext';
 import { addMatchImageSnapshotCommand } from 'cypress-image-snapshot/command';
 
 addMatchImageSnapshotCommand({
-    failureThreshold: 0.001,
+    failureThreshold: 0.0,
     failureThresholdType: 'percent',
-    customDiffConfig: { threshold: 0.1 },
+    customDiffConfig: { threshold: 0.0 },
     capture: 'viewport',
 });
 
