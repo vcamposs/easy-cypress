@@ -83,18 +83,3 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
-
-# screenshotsFolder
-screenshots 
-
-# snapshots
-snapshots/use_todo-list.feature/__diff_output__/*.png
-
-# videos
-videos
-
-# mochawesome-report
-mochawesome-report
-
-#report
-report/generated/*
