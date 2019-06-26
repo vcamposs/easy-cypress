@@ -87,6 +87,9 @@ typings/
 # screenshotsFolder
 screenshots 
 
+# snapshots
+snapshots/*/__diff_output__/*.png
+
 # videos
 videos
 
