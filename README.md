@@ -22,7 +22,7 @@ cd /my-todo-list/
 $ npm install
 $ npm run start 
 ```
-3. Executar os testes :
+3. Instalar as dependências do Cypress e executar os testes :
 ```
 $ cd /cypress/
 $ npm install
