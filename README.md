@@ -1,9 +1,10 @@
 # Easy Cypress :
-O intuito do "easy-cypress" é simplificar as configurações iniciais do projeto E2E. Nele contém :
+O intuito do "easy-cypress" é simplificar as configurações iniciais do projeto E2E. O projeto possui :
 
 - **/app :** 
   - Aplicação simples “my-todo-list” em React, para exemplificar o uso da estrutura criada.
 - **/cypress :**
+  - Cypress;
   - Cucumber;
   - Page objects;
   - Testes de layout;
