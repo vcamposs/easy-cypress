@@ -1,5 +1,5 @@
 # Easy Cypress :
-A intuito do "easy-cypress" é simplificar as configurações iniciais do projeto E2E. Nele contém :
+O intuito do "easy-cypress" é simplificar as configurações iniciais do projeto E2E. Nele contém :
 
 - **/app :** 
   - Aplicação simples “my-todo-list” em React, para exemplificar o uso da estrutura criada.
@@ -42,7 +42,7 @@ Then('Open {string}', page => {
 	cy.matchImageSnapshot('home');
 });
 ```
-2. Executar o comando abaixo pela primeira vez, com ele vamos indicar que a imagem capturada durante a execução, será usada como base para a comparação com os outros testes executados. Se caso houver uma alteração no layout da tela, esse mesmo comando para atualizar a imagem base : 
+2. Executar o comando abaixo pela primeira vez, com ele vamos indicar que a imagem capturada durante a execução, será usada como base para a comparação com os outros testes executados. Se caso houver uma alteração no layout da tela, usar esse mesmo comando para atualizar a imagem base : 
 ```
 e2e-test:headless:updateSnapshots
 ```
