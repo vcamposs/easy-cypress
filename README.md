@@ -33,7 +33,7 @@ $ npm run e2e-test:failOnSnapshotDiff
 $ cd /cypress/
 $ node report/index.js
 ```
-## Cpmo executar os testes de layout ?
+## Como executar os testes de layout ?
 Com dependência "cypress-image-snapshot" (já configurada no projeto), qualquer alteração de layout será apontada como erro, durante a execução dos testes. Para isso teremos que :
 
 1. Capturar uma imagem base, para futuras comparações usando “cy.matchImageSnapshot('home')” onde passamos como parâmetro “home”, que será o nome da imagem padrão. Em “easy-cypress/cypress/step_definitions/base.step.js” temos um exemplo de utilização :
