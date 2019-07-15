@@ -11,23 +11,23 @@ O intuito do "easy-cypress" é simplificar as configurações iniciais do projet
   
 ## Como utilizar ?
 
-### Baixar o projeto :
+1. Baixar o projeto :
 ```
 $ https://github.com/vcamposs/easy-cypress.git
 ```
-#### Instalar as dependências, e executaro o app "my-todo-list" :
+2. Instalar as dependências, e executaro o app "my-todo-list" :
 ```
 cd /my-todo-list
 $ npm install
 $ npm run start 
 ```
-#### Executar os testes :
+3. Executar os testes :
 ```
 $ cd /cypress
 $ npm install
 $ npm run e2e-test:failOnSnapshotDiff
 ```
-#### Gerar o relatório :
+4. Gerar o relatório :
 ```
 $ cd /cypress
 $ node report/index.js
@@ -35,7 +35,7 @@ $ node report/index.js
 ## Executando os testes de layout ?
 Com dependência "cypress-image-snapshot" (já configurada no projeto), qualquer alteração de layout será apontada como erro, durante a execução dos testes. Para isso teremos que :
 
-1.Capturar uma imagem base, para futuras comparações usando “cy.matchImageSnapshot('home')” onde passamos como parâmetro “home”, que será o nome da imagem padrão. Em “easy-cypress/cypress/step_definitions/base.step.js” temos um exemplo de utilização :
+1. Capturar uma imagem base, para futuras comparações usando “cy.matchImageSnapshot('home')” onde passamos como parâmetro “home”, que será o nome da imagem padrão. Em “easy-cypress/cypress/step_definitions/base.step.js” temos um exemplo de utilização :
 ```
 Then('Open {string}', page => {
 	basePage.openUrl(page);
