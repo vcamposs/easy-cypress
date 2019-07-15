@@ -45,13 +45,13 @@ Then('Open {string}', page => {
 ```
 2. Executar o comando abaixo pela primeira vez, com ele vamos indicar que a imagem capturada durante a execução, será usada como base para a comparação com os outros testes executados. Se caso houver uma alteração no layout da tela, usar esse mesmo comando para atualizar a imagem base : 
 ```
-e2e-test:headless:updateSnapshots
+$ npm run e2e-test:headless:updateSnapshots
 ```
 3. Executar os testes somente via headless para termos uma padrão em relação às imagens. Qualquer diferença no layout será considerada como um erro durante a execução :
 ```
-e2e-test:headless
+$ npm run e2e-test:headless
 ```
 4. Para desconsiderar a comparação de imagens :
 ```
-"e2e-test:headless:failOnSnapshotDiff"
+$ npm run e2e-test:headless:failOnSnapshotDiff
 ```
