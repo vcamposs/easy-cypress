@@ -17,19 +17,19 @@ $ https://github.com/vcamposs/easy-cypress.git
 ```
 2. Instalar as dependências, e executaro o app "my-todo-list" :
 ```
-cd /my-todo-list
+cd /my-todo-list/
 $ npm install
 $ npm run start 
 ```
 3. Executar os testes :
 ```
-$ cd /cypress
+$ cd /cypress/
 $ npm install
 $ npm run e2e-test:failOnSnapshotDiff
 ```
 4. Gerar o relatório :
 ```
-$ cd /cypress
+$ cd /cypress/
 $ node report/index.js
 ```
 ## Executando os testes de layout ?
