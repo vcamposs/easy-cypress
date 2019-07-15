@@ -33,7 +33,7 @@ $ cd /cypress
 $ node report/index.js
 ```
 ## Executando os testes de layout ?
-Utilizando a dependência "cypress-image-snapshot" (já configurada no projeto), qualquer alteração de layout será apontada como erro, durante a execução dos testes. Para isso teremos que :
+Com dependência "cypress-image-snapshot" (já configurada no projeto), qualquer alteração de layout será apontada como erro, durante a execução dos testes. Para isso teremos que :
 
 1.Capturar uma imagem base, para futuras comparações usando “cy.matchImageSnapshot('home')” onde passamos como parâmetro “home”, que será o nome da imagem padrão. Em “easy-cypress/cypress/step_definitions/base.step.js” temos um exemplo de utilização :
 ```
