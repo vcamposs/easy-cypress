@@ -1,4 +1,6 @@
 # Easy Cypress :
+[![ola](https://github.com/cypress-io/cypress)]
+
 Easy-Cypress takes simplicity of Cypress and Cucumber and provides bindings for e2e test.
 
 1. Running "My todo list" :
